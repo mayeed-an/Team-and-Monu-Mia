@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+}
+
+body{
+    background: linear-gradient(to top, black, gray, black);
+}
+
+.first {
+    background: linear-gradient(to top, black, gray, black);
+    height: 80px;
+    text-align: center;
+}
+
+.box4 {
+    background-image: url(../img/Panjabi.jpg);
+    background-size: 600px 600px;
+    background-attachment: scroll;
+    text-align: center;
+    background-position: center center;
+}
+
+.box4 img {
+    width: 600px;
+    box-shadow: 10px 15px 8px #2f2f92;
+
+}
+
+.box6 {
+    border: 2px double seagreen;
+    text-align: center;
+}
+
+.box6 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 30%;
+    display: inline-block;
+}
+
+.first p span {
+    font-family: chiller;
+    color: red;
+    font-weight: bolder;
+    font-size: 65px;
+}
+
+.first p {
+    font-family: Copperplate Gothic;
+    color: greenyellow;
+    font-size: 63px;
+}
+
+.first p:hover{
+    font-family: Colonna MT;
+    color:greenyellow;
+    text-shadow: 1px 1px 6px #ff1100;
+    font-size: 66px;
+}

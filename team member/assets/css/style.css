@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(27, 15, 15);
+}
+.intro{
+    height: 40px;
+    float: left;
+    border-bottom: 4px groove purple;
+    margin-top: 30px;
+}
+.intro:nth-child(1) {
+    background-color: rgb(31, 23, 31);
+    width: 2%;
+    background-image: url(../img/bg.jpg);
+    background-size: 100% 100%;
+}
+.intro:nth-child(2) {
+    width: 98%;
+    background-color: rgb(10, 10, 10);
+}
+
+.intro h1 {
+    text-align: center;
+    color: rgb(36, 85, 175);
+    font-family: Bodoni MT;
+    font-weight: bolder;
+}
+
+.intro h1:hover {
+    box-shadow: 3px 6px 9px rgb(7, 8, 114);
+    width: 50%;
+    margin: 0px auto;
+    color: royalblue;
+}
+.team {
+    width: 33.1%;
+    float: left;
+    height: 350px;
+    background-color: rgb(51, 41, 41);
+    text-align: center;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    box-shadow: 2px 2px 4px blue;
+}
+.team img {
+    width:  150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.team h2 {
+    font-family: Baskerville Old Face;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.team h2:hover {
+    box-shadow: 3px 2px 3px yellow;
+    width: 70%;
+    margin: 0px auto;
+    color: rgb(221, 155, 13);
+}
+
+.team p {
+    color: yellowgreen;
+    width: 70%;
+    margin: 0px auto;
+    font-family: Agency FB;
+    letter-spacing: 2px;
+}
+
+.team p:hover {
+    box-shadow: 3px 2px 3px rgb(221, 155, 13);
+    width: 90%;
+    margin: 0px auto;
+}
+
